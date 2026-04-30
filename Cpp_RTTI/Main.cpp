@@ -3,7 +3,8 @@
 
 int main()
 {
-	std::shared_ptr<CraftObject> object = std::make_shared<Player>();
+	TSubclassOf<Player> objectType = Player::StaticClass();
+	auto object = SpawnActor<Player>(objectType);
 
 	if (object->Is<Player>())
 	{

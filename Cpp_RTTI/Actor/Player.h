@@ -6,4 +6,3 @@ class Player : public Actor
 {
 	TYPE_DECLARATIONS(Player, Actor)
 };
-

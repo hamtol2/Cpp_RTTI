@@ -38,5 +38,8 @@
     <ClInclude Include="Core\TypeInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Core\TSubclassOf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
