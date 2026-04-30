@@ -88,6 +88,7 @@
     <ClInclude Include="Actor\Actor.h" />
     <ClInclude Include="Actor\Player.h" />
     <ClInclude Include="Core\CraftObject.h" />
+    <ClInclude Include="Core\TypeInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
